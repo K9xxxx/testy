@@ -268,17 +268,19 @@ h5.yellow{
 }
 .pobierowo h5{
     position:absolute;
-    top:36px;
-    left:25px;
+    top:85px;
+    left:-25px;
     transform:rotate(90deg);
     font-weight:400;
     font-size:24px;
+    letter-spacing:2px;
 }
 .pobierowo article{
     text-align:center;
     color:#fff;
     font-size:18px;
     padding:0px 25px;
+    margin:24px 0px 16px;
 }
 .pobierowo article p{
     display:inline;
