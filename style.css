@@ -2,12 +2,10 @@
     font-family: "Ribeye Marrow", serif;
     font-family: "Lexend", sans-serif; 
 */
-
-/* Kolory
-    background:#1A1A1A;
-    color:#FF3F45;
-    color:gray;
+/*  
+    color:#A40106;
     color:#B59903;
+    color:#0252FF;
 */
 *{
     padding:0;
@@ -15,53 +13,200 @@
     box-sizing: border-box;
 }
 
-.page{
-    width:100%;
-    height:100vh;
+.all-content{
     background:#1A1A1A;
-    text-align: center;
-}
-.page h2{
+    height:100%;
     font-family: "Lexend", sans-serif; 
-    font-size:24px;
-    color:#FF3F45;
-    padding-top:36px
 }
-.page article{
+
+.nawigacja{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100vw;
+    padding:25px 0px;
+    background:#1A1A1A;
+    z-index:99 !important;
+    display:flex;
+    justify-content: center;
+}
+.przycisk{
+    border-radius:100%;
+    border:2px solid #FF3F45;
     width:fit-content;
-    margin:24px 25px 0px;
+    height:fit-content;
+    display:flex;
+    align-items: center;
+}
+
+
+.front-page{
+    height:100vh;
+}
+
+.wszystkiego-najlepszego-all{
+    padding-top:40px;
+}
+.wszystkiego-najlepszego-div-line{
+    width:100%;
+    text-align: center;
+    position:relative;
+    margin-top:1px;
+    height:fit-content;
+}
+.wszystkiego-najlepszego-div-line h3{
+    font-family: "Ribeye Marrow", serif;
+    font-size:36px;
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.5);
+    color:#FF3F45;
+    z-index:99;
+    position:relative;
+    font-weight:400;
+    letter-spacing:2px;
+}
+.wszystkiego-najlepszego-div-line h2{
+    font-family: "Ribeye Marrow", serif;
+    font-size:48px;
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.5);
+    color:#FF3F45;
+    z-index:99;
+    position:relative;
+    font-weight:400;
+    letter-spacing:2px;
+}
+
+.wszystkiego-najlepszego-ornament{
+    position:absolute;
+    width: 100%;
+    height:15px;
+    background:#430002;
+    left:0;
+    z-index:0 !important;
+}
+.wszystkiego-najlepszego-div-line:nth-child(1) > .wszystkiego-najlepszego-ornament{
+    bottom:8px;
+}
+.wszystkiego-najlepszego-div-line:nth-child(2) > .wszystkiego-najlepszego-ornament{
+    top:8px;
+}
+.wszystkiego-najlepszego-div-line:nth-child(3) > .wszystkiego-najlepszego-ornament{
+    bottom:8px;
+}
+.wszystkiego-najlepszego-div-line:nth-child(4) > .wszystkiego-najlepszego-ornament{
+    top:50%;
+    transform: translateY(-50%)
+}
+
+.prezent{
+    position:relative;
+    padding-top:100px;
+}
+.button-prezent{
+    border: 4px solid #FF3F45;
+    padding:24px 48px;
+    width:fit-content;
+    color:#fff;
     font-family: "Lexend", sans-serif; 
+    font-size:20px;
+    text-align: center;
+    margin:0 auto;
+}
+
+.pare-slow{
+    height:100vh;
+    padding-top:32px;
+    position:relative;
+}
+.pare-slow h4{
+    color:#FF3F45;
+    font-size:24px;
+    text-align: center;
+    z-index:2 !important;
+    position:relative;
+    font-weight: 400;
+    
+}
+.pare-slow .youtube{
+    width:270px;
+    height:140px;
+    margin:200px auto 0px;
+    border:1px solid red;
+    z-index:2 !important;
+    position:relative;
+}
+.ozdoba{
+    width:15px;
+    height:100%;
+    background:#430002;
+    top:0;
+    left:50%;
+    position:absolute;
+    z-index:1;
+    transform: translateX(-50%);
+}
+.reszta-zyczen{
+    height:100vh;
+    display:flex;
+    flex-direction: row;
+}
+.glowne-zyczenia{
+    height:100vh;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.glowne-zyczenia article{
+    padding:0px 25px;
+    display:inline;
+    text-align:center;
     font-size:18px;
     color:#fff;
-    text-align: center;
 }
-.page article p{
-    display:inline !important;
-}
-.page article p{
+.glowne-zyczenia article p{
+    
     color:#FF3F45;
+    font-size:18px;
 }
-.page .picture{
+
+.dodatkowe-zyczenia{
+    width:100vw;
+    height:100vh;
+    margin-right:-100%;
+    background:#1A1A1A;
+    padding-top:32px;
+}
+.zdjecie-con{
     width:230px;
     height:140px;
-    border: 2px solid gray;
-    margin:0 auto;
-    margin-top:24px;
-    margin-bottom:24px;
 }
-.page .picture >img{
+.zdjecie-con img{
     width:100%;
     height:100%;
 }
-
-
-.page .picture.no2{
-    margin-top:16px;
-    margin-bottom:0;
+.dodatkowe-zyczenia h4{
+    text-align:center;
+    font-size:18px;
+    color:#fff;
 }
-.przycisk{
-    width:100%;
-    height:auto;
-    text-align: center;
-    margin-top:20px;
+.dodatkowe-zyczenia article{
+    text-align:center;
+    font-size:18px;
+    color:#fff;
+    margin-top:32px;
+    display: inline;
+}
+.dodatkowe-zyczenia article p{
+    font-size:18px;
+    color:#0252FF;
+}
+.dodatkowe-zyczenia article:nth-child(4){
+    margin-top:16px;
+}
+.dodatkowe-zyczenia article:nth-child(4){
+    margin-top:16px;
+    color:#B59903;
+}
+.zdjecie-con{
+    margin:0 auto;
 }
