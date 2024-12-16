@@ -194,18 +194,24 @@
     font-size:18px;
     color:#fff;
     margin-top:32px;
-    display: inline;
+    margin-bottom:32px;
 }
 .dodatkowe-zyczenia article p{
     font-size:18px;
+    display:inline;
+}
+p.blue{
     color:#0252FF;
 }
-.dodatkowe-zyczenia article:nth-child(4){
-    margin-top:16px;
+p.yellow{
+    color:#B59903;
 }
 .dodatkowe-zyczenia article:nth-child(4){
     margin-top:16px;
-    color:#B59903;
+    margin-bottom:16px;
+}
+.dodatkowe-zyczenia article:nth-child(4){
+    margin-top:16px;
 }
 .zdjecie-con{
     margin:0 auto;
