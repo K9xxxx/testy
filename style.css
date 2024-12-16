@@ -206,6 +206,12 @@ p.blue{
 p.yellow{
     color:#B59903;
 }
+p.red{
+    color:#FF3F45;
+}
+h5.yellow{
+    color:#B59903;
+}
 .dodatkowe-zyczenia article:nth-child(4){
     margin-top:16px;
     margin-bottom:16px;
@@ -215,4 +221,66 @@ p.yellow{
 }
 .zdjecie-con{
     margin:0 auto;
+}
+
+.podziekowania{
+
+}
+
+.pierwsze{
+    display:flex;
+    flex-direction: row;
+    height:100vh;
+    width:100vw;
+}
+
+.wyjazdy-main{
+    padding-top:48px;
+    width:100vw;
+    height:100vh;
+}
+.wyjazdy-main h5{
+    font-size:24px;
+    color:#FF3F45;
+    text-align:center;
+    font-weight:400;
+    width:80%;
+    margin:0 auto;
+}
+.wyjazdy-main article{
+    font-size:18px;
+    color: #fff;
+    text-align:center;
+    margin-top:100px;
+    padding:0px 25px;
+}
+.wyjazdy-main article p{
+    display:inline;
+    font-size:18px;
+}
+.pobierowo{
+    position:relative;
+    width:100vw;
+    height:100vh;
+    margin-right:-100%;
+    background: #1a1a1a;
+    padding-top:36px;
+}
+.pobierowo h5{
+    position:absolute;
+    top:36px;
+    left:25px;
+    transform:rotate(90deg);
+    font-weight:400;
+    font-size:24px;
+}
+.pobierowo article{
+    text-align:center;
+    color:#fff;
+    font-size:18px;
+    padding:0px 25px;
+}
+.pobierowo article p{
+    display:inline;
+    font-size:18px;
 }
