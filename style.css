@@ -286,3 +286,27 @@ h5.yellow{
     display:inline;
     font-size:18px;
 }
+.ustka{
+    position:relative;
+    width:100vw;
+    height:100vh;
+    margin-right:-200%;
+    background: #1a1a1a;
+    padding-top:36px;
+}
+.ustka h5{
+    position:absolute;
+    top:85px;
+    right:0px;
+    transform:rotate(90deg);
+    font-weight:400;
+    font-size:24px;
+    letter-spacing:2px;
+}
+.ustka article{
+    text-align:center;
+    color:#fff;
+    font-size:18px;
+    padding:0px 25px;
+    margin:24px 0px 16px;
+}
