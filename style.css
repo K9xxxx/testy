@@ -13,10 +13,18 @@
     box-sizing: border-box;
 }
 
+html{
+    overflow:hidden
+}
+body{
+    overflow:hidden
+}
+
 .all-content{
     background:#1A1A1A;
     height:100%;
-    font-family: "Lexend", sans-serif; 
+    font-family: "Lexend", sans-serif;
+    position:relative;
 }
 
 .nawigacja{
@@ -42,6 +50,7 @@
 
 .front-page{
     height:100vh;
+    position:relative;
 }
 
 .wszystkiego-najlepszego-all{
@@ -362,4 +371,33 @@ h5.yellow{
 .warszawa .zdjecie-con{
     width:280px;
     height:160px;
+}
+.inne{
+    position:relative;
+    width:100vw;
+    height:100vh;
+    margin-right:-100%;
+    background: #1a1a1a;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.inne article{
+    text-align:center;
+    color:#fff;
+    font-size:18px;
+    padding:0 25px;
+}
+.drugie{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.drugie article{
+    text-align:center;
+    color:#fff;
+    font-size:18px;
+    padding:0 25px;
 }
