@@ -290,7 +290,7 @@ h5.yellow{
     position:relative;
     width:100vw;
     height:100vh;
-    margin-right:-200%;
+    margin-right:-100%;
     background: #1a1a1a;
     padding-top:36px;
 }
@@ -304,6 +304,55 @@ h5.yellow{
     letter-spacing:2px;
 }
 .ustka article{
+    text-align:center;
+    color:#fff;
+    font-size:18px;
+    padding:0px 25px;
+    margin:24px 0px 16px;
+}
+
+.jezioro{
+    position:relative;
+    width:100vw;
+    height:100vh;
+    margin-right:-100%;
+    background: #1a1a1a;
+    padding-top:36px;
+}
+.jezioro h5{
+    font-weight:400;
+    font-size:24px;
+    letter-spacing:2px;
+    text-align: center;
+    margin-bottom:24px;
+}
+.jezioro article{
+    text-align:center;
+    color:#fff;
+    font-size:18px;
+    padding:0px 25px;
+    margin:24px 0px 16px;
+}
+.jezioro article p{
+    display:inline;
+    font-size:18px;
+}
+.warszawa{
+    position:relative;
+    width:100vw;
+    height:100vh;
+    margin-right:-100%;
+    background: #1a1a1a;
+    padding-top:36px;
+}
+.warszawa h5{
+    font-weight:400;
+    font-size:24px;
+    letter-spacing:2px;
+    text-align: center;
+    margin-bottom:24px;
+}
+.warszawa article{
     text-align:center;
     color:#fff;
     font-size:18px;
