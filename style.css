@@ -74,8 +74,14 @@ body{
     margin:24px 0px 16px;
 }
 .zdjecie-con{
-    width:280px;
-    height:160px;
+    width:250px;
+    height:150px;
+    border:1px solid red;
+    margin:0 auto;
+}
+.zdjecie-con1{
+    width:230px;
+    height:140px;
     border:1px solid red;
     margin:0 auto;
 }
