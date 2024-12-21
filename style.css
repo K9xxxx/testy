@@ -35,16 +35,16 @@ body{
     height:150px;
 }
 .zdjecie-poziomex3left.no1{
-    top:64px;
+    top:32px;
     left:20px;
 }
 .zdjecie-poziomex3left.no2{
-    top:278px;
+    top:214px;
     left:50%;
     transform: translateX(-50%);
 }
 .zdjecie-poziomex3left.no3{
-    top:492px;
+    top:396px;
     right:20px;
 }
 .podziekowania{
